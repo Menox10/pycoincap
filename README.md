@@ -45,17 +45,17 @@ BTC = m.coin('bitcoin')
 
 print BTC
 >>> Coin: Bitcoin
-    Ranked: 1
-    Price : 4775.44 $
-    Price BTC: 1.0
-    Available supply: 16613825.0
-    Total supply: 16613825.0
-    Percent changes:1h  = -0.89
-            24h = 8.35
-            1d  = 3.74
+Ranked: 1
+Price : 8334.59 $
+Price BTC: 1.0
+Circulating supply: 16856825.0
+Total supply: 16856825.0
+Percent changes:1h  = -1.68
+                24h = -3.19
+                7d  = -9.29
 
 print BTC.price_usd
->>> 4775.44
+>>> 8334.59
 ```
 
 Get stats
@@ -69,10 +69,10 @@ m = market()
 stats = m.stats()
 
 print stats
->>>  Market value: 52.41$
-     Bitcoin percentage: 1.51106247425e+11
-     Active markets: 5665
-     Active assets: 279
-     Active currencies: 874
-     Last day changes: 4451850464.0
+>>>  Market value: 4.06888588391e+11$
+ Bitcoin percentage: 34.53
+ Active markets: 8716
+ Active assets: 598
+ Active currencies: 893
+ Last day changes: 25323934215.0
 ```
